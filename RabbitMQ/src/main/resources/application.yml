@@ -29,4 +29,3 @@ eureka:
             registerWithEureka: false
             fetchRegistry: false
             defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka
-                        #http://localholst:9000/eureka/

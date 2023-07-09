@@ -10,14 +10,12 @@ spring:
         password: guest
         queue: professor-sent
         exchange: professores
-        #queueAluno: aluno-sent
-        #exchageAluno: alunos
 
     mail:
         host: gmail.com
         port: 587
-        username: softfarmapp@gmail.com
-        password: softfarm1651
+        username: bruno.silva123854@gmail.com
+        password: #*************  mudar
         properties:
             mail:
                 smtp:
@@ -37,4 +35,3 @@ eureka:
             registerWithEureka: false
             fetchRegistry: false
             defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka
-                        #http://localholst:9000/eureka/
